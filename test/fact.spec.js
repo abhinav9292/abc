@@ -5,8 +5,9 @@
 
    it('should say factorial exists',function(){
 
-        expect('fact').toExist();
-        expect('factor').toNotBe(undefined);
+        expect(fact.factor(4)).toEqual(2);
+      // expect(factor).toNotBe(undefined);
+
 
    });
 

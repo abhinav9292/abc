@@ -1,7 +1,5 @@
 module.exports = {
-
-factor  : function factorial(num)
-{
+  factor  : function factorial(num){
     // If the number is less than 0, reject it.
     if (num < 0) {
         return -1;
